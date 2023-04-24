@@ -18,6 +18,7 @@ import training.spring.restful.domain.Producto;
 @RequestMapping("/producto")
 public class ProductoResource {
 
+	//Pongo un comentario para que el codigo sea distinto de cara a Git
 	private List<Producto> productos = new ArrayList<Producto>();
 	
 	@GetMapping
